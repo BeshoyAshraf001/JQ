@@ -1,0 +1,96 @@
+/* Header */
+header {
+  background-image: linear-gradient(
+      rgba(214, 46, 51, 0.6),
+      rgba(214, 46, 51, 0.6)
+    ),
+    url("../images/events-heavenly-header.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+
+.header_content {
+  display: flex;
+  height: 100%;
+}
+
+.header_content h1 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Singer Section */
+.singer {
+  background-color: rgba(214, 46, 51, 0.6);
+  color: white;
+  text-align: center;
+  /* margin-top: 50px; */
+  margin-block: 100px !important;
+}
+
+/* Time Party Section */
+.time_party {
+  background-image: linear-gradient(
+      rgba(214, 46, 51, 0.6),
+      rgba(214, 46, 51, 0.6)
+    ),
+    url("../images/invitation-2508607__340.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.time-box {
+  transition: all 0.3s ease;
+  color: white;
+  font-size: larger;
+}
+.time-box:hover {
+  transform: scale(1.05);
+}
+
+/* Social Media Icons */
+.icons i {
+  color: gray;
+  padding: 10px;
+  border: 1px solid gray;
+  transition: color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.icons i:hover {
+  color: rgba(214, 46, 51, 0.6);
+  transform: scale(1.2) rotate(360deg);
+}
+.open {
+  top: 0%;
+  background-color: #000;
+  height: 100vh;
+  z-index: 10000;
+  width: 270px;
+  left: -270px;
+  transition: left 0.5s ease;
+}
+.openIcon {
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: left 0.5s ease;
+}
+.fa-xmark {
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+.open ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 !important;
+  li {
+    padding-block: 10px;
+  }
+}
+.card p {
+  display: none;
+}
